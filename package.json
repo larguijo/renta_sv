@@ -1,0 +1,27 @@
+{
+  "name": "renta_sv",
+  "version": "1.0.0",
+  "description": "Paquete para el calculo del impuesto sobre la renta en El Salvador",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/larguijo/renta_sv.git"
+  },
+  "keywords": [
+    "ISR"
+  ],
+  "author": "Luis Arguijo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/larguijo/renta_sv/issues"
+  },
+  "homepage": "https://github.com/larguijo/renta_sv#readme",
+  "devDependencies": {
+    "@types/node": "^22.10.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.7.2"
+  }
+}
