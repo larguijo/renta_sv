@@ -2,9 +2,11 @@
   "name": "renta_sv",
   "version": "1.0.0",
   "description": "Paquete para el calculo del impuesto sobre la renta en El Salvador",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test": "test"
+    "test": "test",
+    "build": "tsc"
   },
   "repository": {
     "type": "git",
