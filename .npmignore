@@ -1,0 +1,36 @@
+# Exclude TypeScript source files
+src/
+
+# Exclude build artifacts and logs
+*.log
+
+# Exclude config files and unnecessary metadata
+tsconfig.json
+.eslintrc*
+.prettierrc*
+*.sh
+*.bat
+
+# Exclude test files
+tests/
+__tests__/
+*.test.ts
+*.spec.ts
+
+# Exclude system files and editor settings
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+
+# Exclude node_modules (should not be published even if you accidentally include it)
+node_modules/
+
+# Exclude git files
+.git/
+.gitignore
+
+# Miscellaneous
+coverage/
+dist/coverage/
